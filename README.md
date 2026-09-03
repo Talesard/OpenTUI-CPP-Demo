@@ -19,6 +19,8 @@ This repo demonstrates that path on **Windows x64**:
 
 Shared helpers live in `otui_app` (console VT setup, keyboard input, resize sync).
 
+To bootstrap or upgrade a C++ OpenTUI wrapper for any native-core version, follow the portable skill in [`skills/opentui-cpp-abi/`](skills/opentui-cpp-abi/) (agent-agnostic; start at `SKILL.md`).
+
 ## How it works
 
 ```text
@@ -152,6 +154,7 @@ src/otui_app.cpp
 src/demo.cpp            opentui_demo
 src/procs.cpp           opentui_procs
 scripts/                DLL fetch + import-lib generation
+skills/opentui-cpp-abi/ Portable skill: bootstrap / upgrade C++ ABI wrappers
 img/opentui_procs.png   Screenshot
 ```
 
