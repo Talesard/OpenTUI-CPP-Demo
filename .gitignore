@@ -1,0 +1,17 @@
+/build/
+/third_party/
+/.vs/
+/out/
+CMakeUserPresets.json
+*.user
+*.suo
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.lib
+*.exp
+*.def
+probe.*
+*_out.txt
+*_err.txt
